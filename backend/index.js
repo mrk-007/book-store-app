@@ -9,7 +9,7 @@ require('dotenv').config()
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://book-app-frontend-tau.vercel.app'],
+    origin: ['http://localhost:5173', 'https://bookstore-frontend-eight-psi.vercel.app'],
     credentials: true
 }))
 
